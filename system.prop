@@ -22,9 +22,6 @@ ro.opengles.version=196610
 # Kernel
 ro.kernel.zio=38,108,105,16
 
-# Netflix
-ro.netflix.bsp_rev=MTK6785-18758-1
-
 # Perf
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
