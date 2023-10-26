@@ -103,9 +103,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm-service.clearkey
 
-# FM Radio
-#PRODUCT_PACKAGES += \
-#    RevampedFMRadio
+# Remove Unwanted Packages 
+# from https://github.com/wodanesdag/android_device_redmi_begonia
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
