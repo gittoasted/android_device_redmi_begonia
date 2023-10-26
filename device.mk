@@ -104,8 +104,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    RevampedFMRadio
+#PRODUCT_PACKAGES += \
+#    RevampedFMRadio
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
