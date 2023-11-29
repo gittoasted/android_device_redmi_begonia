@@ -103,10 +103,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm-service.clearkey
 
-# FM Radio
+# Remove Unwanted Packages 
+# from https://github.com/wodanesdag/android_device_redmi_begonia
 PRODUCT_PACKAGES += \
-    RevampedFMRadio
-
+    RemovePackages
+   
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
@@ -236,8 +237,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
-
+   
 # PowerOffAlarm
 PRODUCT_PACKAGES += \
     PowerOffAlarm
